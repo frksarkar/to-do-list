@@ -1,0 +1,21 @@
+{
+	"name": "to-do-list",
+	"version": "1.0.0",
+	"description": "A simple Todo application built with HTML, CSS, and JavaScript. This app allows users to add, view, and delete tasks, providing a straightforward way to manage their to-do list.",
+	"main": "function.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/frksarkar/to-do-list.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/frksarkar/to-do-list/issues"
+	},
+	"homepage": "https://github.com/frksarkar/to-do-list#readme",
+	"devDependencies": {
+		"@types/jquery": "^3.5.32"
+	}
+}
