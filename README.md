@@ -53,10 +53,8 @@ The following npm scripts are available in the package.json file:
 
 Example usage:
 
-    ```bash
     npm run build
     npm start
-    ```
 
 ## Usage
 
