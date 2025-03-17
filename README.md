@@ -1,37 +1,62 @@
 # Todo App
 
-A simple Todo application built with HTML, CSS, and JavaScript. This app allows users to add, view, and delete tasks, providing a straightforward way to manage their to-do list.
-
-live demo link [click here](https://frksarkar.github.io/to-do-lisht/)
+A simple To-Do List application built with TypeScript, HTML, and CSS. This project helps you manage your tasks efficiently.
 
 ## Features
 
-- Add new tasks
-- Mark tasks as completed
-- Delete tasks
-- Filter tasks based on their completion status
+-   Add new tasks to the list.
+-   Mark tasks as completed.
+-   Delete tasks from the list.
+-   Simple and intuitive user interface.
 
-## Technologies Used
+## Prerequisites
 
-- **HTML**: For structuring the application
-- **CSS**: For styling the application
-- **JavaScript**: For handling the logic and interactions
+Before you begin, ensure you have the following installed:
 
-## Installation
+-   [Node.js](https://nodejs.org/) (v14 or higher)
+-   [npm](https://www.npmjs.com/) (usually comes with Node.js)
 
-1. Clone the repository:
+## Getting Started
 
-   ```bash
-   git clone https://github.com/yourusername/todo-app.git
-   ```
-   
-2. Navigate to the project directory:
+Follow these steps to set up and run the project locally:
 
-   ```bash
-   cd todo-app
-   ```
-   
-3. Open the index.html file in your preferred web browser to view the app.
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/frksarkar/todo-app.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd todo-app
+    ```
+
+3. **Run the project:**
+
+    - If you have a TypeScript compiler installed globally, you can compile the TypeScript files using:
+        ```bash
+        tsc
+        ```
+    - Alternatively, you can use a tool like webpack or parcel to bundle and serve the project. For example, using parcel:
+        ```bash
+        npx parcel src/index.html
+        ```
+    - Open your browser and navigate to http://localhost:1234 to view the application.
+
+## Scripts
+
+The following npm scripts are available in the package.json file:
+
+-   build: Compiles the TypeScript files.
+-   start: Starts the development server (if configured).
+
+Example usage:
+
+    ```bash
+    npm run build
+    npm start
+    ```
 
 ## Usage
 
@@ -42,13 +67,15 @@ live demo link [click here](https://frksarkar.github.io/to-do-lisht/)
 
 ## File Structure
 
-   ```graphql
-   todo-app/
-   │
-   ├── index.html         # Main HTML file
-   ├── styles.css         # CSS file for styling
-   └── script.js          # JavaScript file for functionality
-   ```
+```graphql
+to-do-list/
+├── src/
+│ ├── index.html # The main HTML file for the application
+│ ├── main.ts # The TypeScript file containing the application logic
+│ └── style.css # The CSS file for styling the application
+├── package.json # Node.js project configuration and dependencies
+├── tsconfig.json # TypeScript configuration file
+```
 
 ## Contributing
 
@@ -63,5 +90,7 @@ live demo link [click here](https://frksarkar.github.io/to-do-lisht/)
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Acknowledgments
 
-
+-   Inspired by various to-do list applications available online.
+-   Built with TypeScript, HTML, and CSS.
